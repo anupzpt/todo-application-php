@@ -1,7 +1,7 @@
 <?php
-   $conn= new mysqli("localhost:3307","root","","todo");
+   $conn= new mysqli("localhost:3306","root","","todo");
    if($conn->connect_error){
     die($conn->connect_error);
    }
-   echo "DB connect success" ."<br>";
+   // echo "DB connect success" ."<br>";
 ?>
